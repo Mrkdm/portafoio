@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300&display=swap');
+
+
+.bgNav{
+    background: transparent;
+    color: #fff;
+}
+
+.LogoMain{
+    max-width: 150px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.typografyTextMain{
+    font-family: 'Roboto Mono', monospace;
+    animation-duration: 3s;
+    margin-top: 10vh;
+    animation-name: hidden;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes hidden{
+    0%{
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: .15;
+    }
+
+    75%{
+        opacity: 1;
+    }
+}
+
+
+.buttonMain{
+    transition: 300ms;
+}
+
+.buttonMain:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+
+.arrowStyle{
+    cursor: pointer;
+    font-size: 50px;
+    margin-top: 20px;
+    transition: 400ms;
+
+}
+
+.arrowStyle:hover{
+    color:#e24;
+}
+
+.fbIconStyle{
+    cursor: pointer;
+    font-size: 27px;
+    transition: 400ms;
+}
+
+.containerSkils{
+    margin-top:20vh;
+}
+
+.LogoContainerAboutMe{
+    margin-top: -40px;
+    width: 300px;
+}
+
+
+.bgPurple{
+    background: #1f0c53d0;
+    color:#fff;
+}
